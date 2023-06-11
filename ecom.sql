@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 11-06-2023 a las 20:33:35
+-- Tiempo de generación: 11-06-2023 a las 21:11:26
 -- Versión del servidor: 10.4.17-MariaDB
 -- Versión de PHP: 8.0.0
 
@@ -152,9 +152,6 @@ CREATE TABLE `ecom_customer` (
 --
 
 INSERT INTO `ecom_customer` (`userid`, `name`, `email`, `image`, `pass`, `date`, `zip`, `country`, `city`, `phone`) VALUES
-(1, 'Tanjil Hasan', 'tanjilh136@gmail.com', 'uploads/372ef6a306.jpg', '827ccb0eea8a706c4c34a16891f84e7b', '2017-09-17', '1349', 'Bangladesh', 'Dhaka', '+8801701046785'),
-(2, 'Tanjil Hasan', 'tanjilh136@gmail.com', 'uploads/22b842dc92.jpg', 'b59c67bf196a4758191e42f76670ceba', '2017-09-17', '1230', 'Bangladesh', 'Dhaka', '+8801962837564'),
-(3, 'Md Rakibul Hasan Ant', 'mdanto345@gmail.com', 'NULL', '0803e2e4e36693ebeea4d5c935b695d5', '2020-04-11', '', '', '', '+8801849624222'),
 (4, 'Pedro Nava Rebollo', 'pedro@gmail.com', 'uploads/361e72286d.jpg', '81dc9bdb52d04dc20036dbd8313ed055', '2023-06-11', '61254', 'Michoacán', 'Maravatio, Michoacán, Mexico', '447-09-09'),
 (5, 'Oscar', 'oscar@gmail.com', 'NULL', '827ccb0eea8a706c4c34a16891f84e7b', '2023-06-11', '', '', '', '4471239898');
 
@@ -255,14 +252,6 @@ CREATE TABLE `ecom_product_review` (
   `rate` int(11) NOT NULL,
   `date` date DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Volcado de datos para la tabla `ecom_product_review`
---
-
-INSERT INTO `ecom_product_review` (`revid`, `cmrid`, `proid`, `name`, `email`, `phone`, `review`, `rate`, `date`) VALUES
-(1, 1, 10, 'Tanjil Hasan', 'tanjilh136@gmail.com', '+880111111111', ':P this ', 3, '2020-04-16'),
-(2, 1, 4, 'Tanjil Hasan', 'tanjilh136@gmail.com', '+88012222222222', 'Test Rewiew', 3, '2020-04-08');
 
 -- --------------------------------------------------------
 
