@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Tanjil Hasan
- * Date: 9/9/2017
- * Time: 11:44 PM
- */
+
 ?>
 <?php
     include 'adminHader.php';

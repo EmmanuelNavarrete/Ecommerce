@@ -143,12 +143,19 @@ include 'header.php';
 				src="images/pedro7.jpeg">
 		</div>
 	</div>
+
+	
+	<!-- copear de aqui-->
 	<div class="col-lg-4 col-sm-6">
 		<div class="thumbnail">
 			<img
 				src="images/pedro8.jpeg">
 		</div>
 	</div>
+
+
+
+
 	<div class="col-lg-4 col-sm-6">
 		<div class="thumbnail">
 			<img
