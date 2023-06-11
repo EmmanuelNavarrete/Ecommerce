@@ -363,7 +363,7 @@
 <?php $proInfo = $productObject->getProductByCategory($cat); if ($proInfo): ?>
 	<div class="w3l_related_products">
 		<div class="container">
-			<h3>Related Products</h3>
+			<h3>Productos Parecidos</h3>
 			<ul id="flexiselDemo2">
                 <?php  while ($related = $proInfo->fetch_assoc()): ?>
 				<li>
